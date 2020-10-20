@@ -18,7 +18,7 @@ In this project, you will find a PDF of my presentation, code files relating to 
 
 ## Files:
 ### Slideshow PDF:
-- [TelcoChurnPDF.pdf](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/TelcoChurnPDF.pdf)
+- [TelcoChurnSlides.pdf](https://github.com/lindsayread/Predicting_Customer_Churn/blob/master/TelcoChurnSlides.pdf)
 
 ### SQL Related Files:
 1. Text used to import .csv file into a SQL table on postgresql:
@@ -31,7 +31,7 @@ In this project, you will find a PDF of my presentation, code files relating to 
 ### Code Files:
 1. Code file for EDA, feature engineering, and Modeling:
 
-[TelcoEDAandModeling-CleanedUp.ipynb](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/TelcoEDAandModeling-CleanedUp.ipynb)
+[TelcoEDAandModeling-CleanedUp.ipynb](https://github.com/lindsayread/Predicting_Customer_Churn/blob/master/TeclcoEDAandModeling-CleanedUp.ipynb)
 
 ### Flask App Files:
 
