@@ -22,11 +22,11 @@ In this project, you will find a PDF of my presentation, code files relating to 
 
 ### SQL Related Files:
 1. Text used to import .csv file into a SQL table on postgresql:
-[CSVintoSQL.txt](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/SQLrelated/CSVintoSQL.txt)
+[CSVintoSQL.txt](https://github.com/lindsayread/Predicting_Customer_Churn/blob/master/SQLrelated/CSVintoSQL.txt)
 2. SQL Queries (from DBeaver):
-[telcoProj3.sql](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/SQLrelated/telcoProj3.sql)
+[telcoProj3.sql](https://github.com/lindsayread/Predicting_Customer_Churn/blob/master/SQLrelated/telcoProj3.sql)
 3. SQL Queries via sqlalchemy:
-[sqlqueries.ipynb](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/SQLrelated/sqlqueries.ipynb)
+[sqlqueries.ipynb](https://github.com/lindsayread/Predicting_Customer_Churn/blob/master/SQLrelated/sqlqueries.ipynb)
 
 ### Code Files:
 1. Code file for EDA, feature engineering, and Modeling:
@@ -36,11 +36,11 @@ In this project, you will find a PDF of my presentation, code files relating to 
 ### Flask App Files:
 
 1. html file that formats the html page:
-[index.html](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/Flask_app_files/index.html)
+[index.html](https://github.com/lindsayread/Predicting_Customer_Churn/blob/master/Flask_app_files/index.html)
 2. File that takes the Random Forest Model and Scaler used in my Jupyter Notebook to make a prediction of whether a customer will leave or stay with Telco based on the inputs given by the user.
-[make_prediction.py](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/Flask_app_files/make_prediction.py)
+[make_prediction.py](https://github.com/lindsayread/Predicting_Customer_Churn/blob/master/Flask_app_files/make_prediction.py)
 3. File that brings together index.html and make_prediction.py to return error messages and to return an output to the user (either that the customer will leave or stay).
-[main.py](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/Flask_app_files/main.py)
+[main.py](https://github.com/lindsayread/Predicting_Customer_Churn/blob/master/Flask_app_files/main.py)
 
 ### README.md:
 - [README.md](https://github.com/thisismetis/chi20_ds15/tree/master/student_submissions/projects/project-03/read_lindsay/README.md)
