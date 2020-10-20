@@ -1,0 +1,28 @@
+-- importing .csv file into postgresql:
+
+CREATE TABLE IF NOT EXISTS churntable6 (
+customerID varchar(20) NOT NULL,
+gender varchar(10) NOT NULL,
+SeniorCitizen varchar(10) NOT NULL,
+Partner varchar(5) NOT NULL,
+Dependents varchar(5) NOT NULL,
+tenure int NOT NULL,
+PhoneService varchar(5) NOT NULL,
+MultipleLines varchar(20) NOT NULL,
+InternetService varchar(20) NOT NULL,
+OnlineSecurity varchar(20) NOT NULL,
+OnlineBackup varchar(20) NOT NULL,
+DeviceProtection varchar(20) NOT NULL,
+TechSupport varchar(20) NOT NULL,
+StreamingTV varchar(20) NOT NULL,
+StreamingMovies varchar(20) NOT NULL,
+Contract varchar(20) NOT NULL,
+PaperlessBilling varchar(5) NOT NULL,
+PaymentMethod varchar(30) NOT NULL,
+MonthlyCharges float NOT NULL,
+TotalCharges varchar(10) NOT NULL,
+Churn varchar(5) NOT NULL,
+PRIMARY KEY (customerID)
+);
+
+COPY churntable6 FROM ‘/home/ubuntu/WA_Fn-UseC_-Telco-Customer-Churn.csv’ DELIMITER ‘,’ CSV HEADER;

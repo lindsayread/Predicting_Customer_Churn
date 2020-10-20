@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leave or Stay Telco</title>
+  <style>
+  body{
+    font-family: sans-serif;
+		background-color: LightBlue
+  }
+  .button {
+    background-color: LightPink;
+    border: none;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .animal-card {
+		background-color: Blue
+		border: 1px solid #ccc;
+    padding: 10px;
+
+    width: 500px;
+    margin: auto;
+  }
+  </style>
+
+</head>
+
+<body align="center">
+
+  <h2>Enter in some information to predict whether or not a customer will stay with Telco.</h2>
+
+  <form action="/predict_recipe/" method="post">
+
+    <div class="animal-card" align="center">
+
+      Senior Citizen (1=Yes; 0=No):
+      <br>
+        <input type="text" name="SeniorCitizen">
+      <br>
+
+      Tenure (months):
+      <br>
+        <input type="text" name="tenure">
+      <br>
+
+      Monthly Charges (USD):
+      <br>
+        <input type="text" name="MonthlyCharges">
+      <br>
+
+      Phone Service (1=Yes; 0=No):
+      <br>
+      	<input type="text" name="PhoneService_Yes">
+      <br>
+
+      Multiple Lines (1=Yes; 0=No):
+      <br>
+        <input type="text" name="MultipleLines_Yes">
+      <br>
+
+      Internet Service: Fiber Optic (1=Yes; 0=No):
+      <br>
+        <input type="text" name="InternetService_Fiber optic">
+      <br>
+
+      Tech Support (1=Yes; 0=No):
+      <br>
+        <input type="text" name="TechSupport_Yes">
+      <br>
+
+      Streaming TV: No Internet Service (1=yes; 0=no):
+      <br>
+        <input type="text" name="StreamingTV_No internet service">
+      <br>
+
+			Streaming Movies: No Internet Service (1=yes; 0=no):
+			<br>
+				<input type="text" name="StreamingMovies_No internet service">
+			<br>
+
+			Multiple People in Household (1=yes; 0=no):
+			<br>
+				<input type="text" name="MultiplePeople">
+			<br>
+
+			Long Term Contract (1=yes; 0=no):
+			<br>
+				<input type="text" name="longtermcontract_Yes">
+			<br>
+
+			Automatic Payment (1=yes; 0=no):
+			<br>
+				<input type="text" name="automaticpayment_Yes">
+			<br>
+
+			Paperless Billing (1=yes; 0=no):
+			<br>
+				<input type="text" name="PaperlessBilling_Yes">
+			<br>
+
+    </div>
+
+  <br>
+
+  <button type="submit" class="button">
+    Will they stay or will they leave?
+  </button>
+  </form>
+
+  <br>
+
+  {% if message %}
+  <h2>{{message}}</h2>
+  {% endif %}
+
+</body>
+</html>
